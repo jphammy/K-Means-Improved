@@ -1,14 +1,16 @@
 
-Authors: Dara Lim & Jonathan Pham
+Authors: Jonathan Pham & Dara Lim
 CS4370 Biological Data Science
 K-Means Clustering Project
 Due 04/01/19
 
 To run:
-Open K_Means.ipynb in Google Colaboratory
-Choose file (Ex: 399edges)
-Put file name in the code line --- data = pd.read_csv('399edges.csv')
-Select k desired
+1/ Open K_Means.ipynb in Google Colaboratory
+2/ Choose file (Ex: 399edges) ---- note that you will need to use our .csv datafiles 
+                                    that were converted from a linked list to a 2-D array
+3/ Put file name in the code line --- EXAMPLE --- data = pd.read_csv('399edges.csv')
+4/ Select k desired
+5/ See results
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
