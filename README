@@ -1,1 +1,32 @@
-test
+
+Authors: Dara Lim & Jonathan Pham
+CS4370 Biological Data Science
+K-Means Clustering Project
+Due 04/01/19
+
+To run:
+Open K_Means.ipynb in Google Colaboratory
+Choose file (Ex: 399edges)
+Put file name in the code line --- data = pd.read_csv('399edges.csv')
+Select k desired
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+K-Means Clustering: Python Implementation to Improve Accurary of K
+
+We implemented the K-Means clustering algorithm in Python to resolve the 'randomness' of the K clustering problem.
+Our code finds the optimal amount of clusters, K. Google Colabs was used to run our code. 
+
+This folder includes: 
+1) 3 .csv files for testing that was altered from a linked list to a 2-dimensional array
+2) Python source code
+3) 3 pdf files with corresponding screenshots of graphical results
+
+After obtaining the optimal K from this code, we could in turn use these results to run our C++ code to find
+the time to execute both our K-Means and K-Means Improved codes. 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Reference:
+J. VanderPlas. In Depth: k-Means Clustering | Python Data Science Handbook. Jakevdp.github.io. 
+https://jakevdp.github.io/PythonDataScienceHandbook/05.11-k-means.html. Accessed 03/30/2019.
